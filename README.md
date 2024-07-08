@@ -1,5 +1,6 @@
 Web3 Front End Developer Interview Assignment
 Overview
+
 This repository contains a simple React-based web application that interacts with an ERC20 token on the Sepolia Test Network. The application allows users to mint tokens and transfer them to another Ethereum address using MetaMask.
 
 Features
@@ -17,7 +18,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-repository.git
+git clone(https://github.com/nareshkhatiwada1/WEB3-App-Front-end
 cd your-repository
 Install dependencies:
 
