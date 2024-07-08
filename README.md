@@ -1,74 +1,83 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Web3 Front End Developer Interview Assignment
+Overview
+This repository contains a simple React-based web application that interacts with an ERC20 token on the Sepolia Test Network. The application allows users to mint tokens and transfer them to another Ethereum address using MetaMask.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Two-step form:
+Step 1: Mint tokens by specifying the amount.
+Step 2: Transfer tokens to another Ethereum address.
+Prerequisites
+Before running the application, ensure you have the following installed:
 
-## Available Scripts
+Node.js (v14.0.0 or higher)
+npm (v6.0.0 or higher) or yarn (v1.22.0 or higher)
+MetaMask extension installed in your browser
+Setup Instructions
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+Install dependencies:
 
-### `npm start`
+If you're using npm:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+If you're using yarn:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+yarn install
+Configure environment variables:
 
-### `npm test`
+Create a .env file in the root directory of your project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+plaintext
+Copy code
+REACT_APP_INFURA_ID=your_infura_project_id
+REACT_APP_TOKEN_ADDRESS=0x65a5ba240CBd7fD75700836b683ba95EBb2F32bd
+Replace your_infura_project_id with your Infura Project ID. You can get it by signing up at Infura.
 
-### `npm run build`
+Run the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you're using npm:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm start
+If you're using yarn:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy code
+yarn start
+Access the application:
 
-### `npm run eject`
+Open your browser and go to http://localhost:3000 to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+How to Use
+Connect MetaMask:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure MetaMask is installed and connected to the Sepolia Test Network.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Step 1: Mint Tokens
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Enter the amount of tokens to mint in the input field.
+Click the "Mint Tokens" button to mint the specified amount of tokens.
+Step 2: Transfer Tokens
 
-## Learn More
+Enter the recipient's Ethereum address in the input field.
+Click the "Transfer Tokens" button to transfer the minted tokens to the specified address.
+Technologies Used
+React
+ethers.js or web3.js
+Bootstrap (or any other front-end UI library)
+Deployment
+This application is deployed on Vercel. Access the live version here: Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# WEB3-App-Front-end
->>>>>>> f5ace281d50e5627201d38a206732ecd0b5c8cf2
+Troubleshooting
+Ensure MetaMask is connected to the Sepolia Test Network.
+Check the browser console for any errors.
+Verify the input values before submitting the forms.
